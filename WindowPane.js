@@ -28,9 +28,14 @@ export default class WindowPane extends HTMLDivElement {
         background-color: #0000;
         overflow: hidden;
       }
+      
       :host(.viewport) {
         width: 100vw;
         height: 100vh;
+      }
+
+      :host(.visible) {
+        overflow: visible;
       }
     `;
   }
