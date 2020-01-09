@@ -149,4 +149,4 @@ export default class ScrollPane extends HTMLDivElement {
   
 };
 
-customElements.define('scroll-pane', ScrollPane, { extends: "div"});
+//customElements.define('scroll-pane', ScrollPane, { extends: "div"});
