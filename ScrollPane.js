@@ -78,7 +78,7 @@ export default class ScrollPane extends HTMLDivElement {
       }
       ::slotted(:nth-child(1n+0)) {
         padding-right: 6px;
-        border-bottom: 1px solid #f9f9f9;
+        //border-bottom: 1px solid #f9f9f9;
       }
       .pane:hover::-webkit-scrollbar {
         display: block;
