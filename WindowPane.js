@@ -39,22 +39,18 @@ export default class WindowPane extends HTMLDivElement {
       ::slotted(.left) {
         grid-column: 1 / 2;
         grid-row: 1 / -1;
-        background-color: green;
       }
       ::slotted(.right) {
         grid-column: -2 / -1;
         grid-row: 1 / -1;
-        background-color: green;
       }
       ::slotted(.top) {
         grid-column: 1 / -1;
         grid-row: 1 / 2;
-        background-color: pink;
       }
       ::slotted(.bottom) {
         grid-column: 1 / -1;
         grid-row: -1 / -2;
-        background-color: pink;
       }
       ::slotted(.main) {
         grid-column: 2 / -2;
