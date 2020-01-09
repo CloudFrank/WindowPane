@@ -1,4 +1,4 @@
-class ScrollPane extends HTMLDivElement {
+export default class ScrollPane extends HTMLDivElement {
   constructor() {
     super();
     this.pane = this.getAttribute('class');
