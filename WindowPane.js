@@ -73,4 +73,4 @@ export default class WindowPane extends HTMLDivElement {
   
 };
 
-customElements.define('window-pane', WindowPane, { extends: "div"});
+//customElements.define('window-pane', WindowPane, { extends: "div"});
