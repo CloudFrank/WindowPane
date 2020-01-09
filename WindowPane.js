@@ -1,4 +1,4 @@
-class WindowPane extends HTMLDivElement {
+export default class WindowPane extends HTMLDivElement {
   constructor() {
     super();
     this.attachShadow({mode: 'open'});
