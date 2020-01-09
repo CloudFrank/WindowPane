@@ -25,17 +25,12 @@ export default class WindowPane extends HTMLDivElement {
         display: grid;
         grid-template-columns: max-content 1fr max-content;
         grid-template-rows: max-content 1fr max-content;
-        background-color: #0000;
         overflow: hidden;
       }
       
       :host(.viewport) {
         width: 100vw;
         height: 100vh;
-      }
-
-      :host(.visible) {
-        overflow: visible;
       }
     `;
   }
